@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+  list-style-type: none;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+}
+
+h1, input {
+  margin-bottom: 10%;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+button {
+  padding: 10px 35px;
+  background-color: rgba(241, 196, 15,1.0);
+  border: none;
+  cursor: pointer;
+}
+
+.add {
+  display: flex;
+}
+
+.done {
+  color: rgba(46, 204, 113,1.0);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  color: rgba(231, 76, 60,1.0);
+  margin: 10px 20px 10px 10px;
+  cursor: pointer;
+}
+
+.done-text {
+  color: rgba(46, 204, 113,1.0);
+}
